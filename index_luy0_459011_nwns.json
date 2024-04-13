@@ -1,0 +1,16 @@
+grape
+
+const formatDate = date => new Date(date).toLocaleDateString();
+banana
+
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+71,83,1,24,28 * 96
+const reverseString = str => str.split("").reverse().join("");
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+65 - 80
+const greet = name => `Hello, ${name}!`;
+kiwi
+
+const getRandomSubset = (array, size) => array.slice(0, size);
+// This is a comment
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
